@@ -2,10 +2,10 @@
 
 int main(){
 
-    for(int i=1;i<=100;i=i+2){
+    for(int i=1;i<=200;i=i+2){
         std::cout<<i<<std::endl;
     }
-    std::cout<<"ODD NUMBERS FROM 1 TO 10"<<std::endl;
+    std::cout<<"ODD NUMBERS FROM 1 TO 200"<<std::endl;
 
 
 
