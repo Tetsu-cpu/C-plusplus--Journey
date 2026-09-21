@@ -1,11 +1,13 @@
 #include <iostream>
 
 int main(){
-    int x;
-    do{
-        std::cout << "Enter your age: ";
-        std::cin >> x;
-    }while(x < 18);
-    std::cout << "You are eligible for this program." << std::endl;
+
+    for(int i=1;i<=100;i=i+2){
+        std::cout<<i<<std::endl;
+    }
+    std::cout<<"ODD NUMBERS FROM 1 TO 10"<<std::endl;
+
+
+
 return 0;
 }
