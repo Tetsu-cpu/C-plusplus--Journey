@@ -2,8 +2,6 @@
 #include<ctime>
 
 int main(){
-    
-
   srand(time(0));
   int randNum=(rand()% 5)+1;
 
@@ -17,8 +15,8 @@ int main(){
     case4:std::cout<<"You WON!...nothing :( "<<std::endl;
           break;
     case5:std::cout<<"You have won 0.1$!WOOHOOO"<<std::endl;
-          break;
-      }
+          break;}
+      
  
     return 0;
 }
