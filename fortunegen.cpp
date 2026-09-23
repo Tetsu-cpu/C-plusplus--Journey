@@ -6,7 +6,6 @@ int main(){
 
   srand(time(0));
   int randNum=(rand()% 5)+1;
-  std::cout<<"Rolling your fortune...";
 
  switch(randNum){
     case1:std::cout<<"You have won a free ticket to the concert!"<<std::endl;
@@ -21,6 +20,5 @@ int main(){
           break;
       }
  
-
     return 0;
 }
