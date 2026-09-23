@@ -9,11 +9,5 @@ srand(time(NULL));
  std::cout<< num<< std::endl;
 
 
-
-
-
-
-
-
     return 0;
 }
