@@ -19,6 +19,7 @@ int main(){
           break;
     case5:std::cout<<"You have won 0.1$!WOOHOOO"<<std::endl;
           break;
+      }
  
 
     return 0;
