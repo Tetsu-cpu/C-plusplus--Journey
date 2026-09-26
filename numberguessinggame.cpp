@@ -5,12 +5,12 @@ int main(){
 
 int num;
 int guess;
-int tries;
+int tries=0;
 
 std::cout<<"**********WELCOME TO THE NUMBER GUESSING GAME**********\n";
 
-srand(time(0));
-num=rand()%100;
+srand(time(NULL));
+num=(rand() % 100)+0;
 
 do{
     std::cout<<"Enter your guess between (0-100): ";
@@ -25,15 +25,10 @@ do{
         std::cout<<"TOO HIGH!"<<std::endl;
     }
     
-    else if(guess=num){
-        std::cout<<"CORRECT"<<std::endl;
-    }
     else{
-        std::cout<<"Please enter a number!"<<std::endl;
+        std::cout<<"CORRECT! #TRIES:"<<tries<<std::endl;
     }
-
-
-}while(guess != num);
+ }while(guess != num);
 
 
     return 0;
