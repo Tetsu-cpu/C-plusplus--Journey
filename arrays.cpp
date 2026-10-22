@@ -1,13 +1,12 @@
 #include<iostream>
-#include<cmath>
-using namespace std;
 
 int main()
 {
-
-
-
-    
-
-    return 0;
+  int i=1;
+  while(i<=10)
+  {
+    std::cout<<i<<std::endl;
+    i++;
+  }
+  return 0;
 }

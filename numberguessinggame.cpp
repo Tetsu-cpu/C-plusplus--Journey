@@ -6,6 +6,8 @@ int main(){
 int num;
 int guess;
 int tries=0;
+int limit=10;
+bool outOfTries=false;
 
 std::cout<<"**********WELCOME TO THE NUMBER GUESSING GAME**********\n";
 
@@ -28,7 +30,13 @@ do{
     else{
         std::cout<<"CORRECT! #TRIES:"<<tries<<std::endl;
     }
- }while(guess != num);
+    if(tries >= limit){
+        outOfTries=true;
+        std::cout<<"YOU LOSE! The number was: "<<num<<std::endl;
+    }
+ }while(guess != num && !outOfTries);
+
+ 
 
 
     return 0;
